@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Music Humanities Final Project</title>
+
+	<link rel="stylesheet" type="text/css" href="fullPage/dist/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: Trebuchet MS, sans-serif;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+	
+	h2{
+		font-size: 3em;
+		font-family: Trebuchet MS, sans-serif;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+	
+	p{
+		font-size: 1em;
+		font-family: Trebuchet MS, sans-serif;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+	
+	img{
+		height: 250px;
+		width: 200px;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section0,
+	#section1,
+	#section2,
+    #slide1,
+    #slide2,
+	 #slide3,
+	 #slide4,
+    #slide5,
+	 #slide6
+
+	/* Defining each sectino background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(imgs/saturn.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		justify-content: center; 
+		align-items: center;
+	}
+	
+	#section1{
+		background-image: url(imgs/holst.jpg);
+		justify-content: center; 
+		align-items: end; 
+		display: flex;
+	}
+
+	/*Adding background for the slides
+	* --------------------------------------- */ 
+	.slide{
+		padding: 0 0 0 0; 
+		justify-content: center; 
+		align-items: center; 
+		display: flex;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+	}
+	
+	#slide1{
+		background-image: url(imgs/sky.jpg);
+	}
+	#slide2{
+		background-image: url(imgs/sky.jpg);
+	}
+	#slide3{
+		background-image: url(imgs/sky.jpg);
+	}
+	#slide4{
+		background-image: url(imgs/sky.jpg);
+	}
+	#slide5{
+		background-image: url(imgs/sky.jpg);
+	}
+	#slide6{
+		background-image: url(imgs/sky.jpg);
+	}
+	
+	.title-container { 
+		margin: 0 auto;
+		margin-top: 180px;
+		position: relative;
+		height: 200px; 
+		width: 640px; 
+		display: grid; 
+		justify-content: flush; 
+		align-items: center;
+	}
+	
+	.intro-container {
+		height: 400px;
+		width: 1150px;
+		display: flex;
+		justify-content: space-between;
+		align-items: end;
+	}
+	
+	.timeline-container {
+		height: 10px;
+		width: 1000px;
+		margin-top: 35px;
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: center;
+	}
+	
+	.white-box {
+	  position: absolute;
+	  background: white;
+	  height: 10px;  
+	  width: 100%;
+	}
+	
+	.white-box-v2 {
+	  position: relative;
+	  background: white;
+	  height: 25px;  
+	  width: 10px;
+	  top: -25px;
+	}
+
+	.content-container {
+		height: 250px;
+		width: 1000px;
+		display: flex;
+		justify-content: center;
+		align-items: start;
+	}
+	
+	.text-container { 
+		height: 250px; 
+		width: 400px;
+		display: flex; 
+		justify-content: center; 
+		align-items: start;
+		text-align: left;
+	}
+	
+	.year-container { 
+		height: 60px; 
+		width: 1000px; 
+		display: flex; 
+		justify-content: center; 
+		align-items: center; 
+	}
+	
+	.audio-container {
+		height: 80px; 
+		width: 1000px;
+		display: flex; 
+		justify-content: center; 
+		align-items: center; 
+	}
+
+	</style>
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="title-container"> 
+			<h1>Saturn: </h1>
+			<i> <h2>The Bringer of Old Age</h2> </i>
+		</div> 
+	</div>
+	<div class="section" id="section1">
+		<div class="intro-container">
+			<div class="text-container" style="height: 300px; width: 300px;"> 
+				  <p> Saturn is the fifth movement in <i> The Planets </i> suite, composed by Gustav Holst from 1914–1917. The piece is generally chaotic with dark melodies. This dreary mood was often critiqued by his audience, yet Holst would later go on to state that Saturn was his favorite movement in the entire suite. To address the disparity between the composer and audience's stance on the music, we argue that Saturn reflects Holst's experiences and trajectory in life. Hence, he is able to resonate with the piece on a deeper level than his audience, explaining his favoritism towards it.  </p>
+			 </div>
+			 <div class="text-container"style="height: 150px; width: 320px; margin-right: 120px;"> 
+				  <p> This website takes the user on an interactive timeline throughout Holst's life, exploring some defining periods and the sections of the music which correspond to each. You can navigate through the timeline using the left and right arrows in the following section. Enjoy! </p>
+			 </div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="slide" id="slide1">
+			<div class="year-container">
+				<h2> Early Years: 1874-1892 </h2>
+			</div>
+			<div class="timeline-container"> 
+				<div class="white-box"></div>
+				<div class="white-box-v2"></div>
+			</div>
+			<div class="content-container"> 
+				<div class="text-container" style="margin-right: 100px;"> 
+					<p> Gustav Holst was born in 1874 to a musical family. His father was an accomplished pianist and Gustav inherited his love for the piano. Unfortunately, Holst had several health concerns as a child. His eyes and chest were weak and his asthma went untreated. He also suffered from neuritis, a neurological condition that caused severe pain in his right hand whenever he would practice. His poor health conditions are at the forefront of Saturn. The piece begins with alternating dissonant chords in the flutes that portray a ticking clock. This motif persists across the entire piece, as if constanting reminding Holst of his health concerns that remained throughout his life. </p>
+				</div> 
+				<img src="imgs/img1.jpg">
+			</div>
+			<div class="audio-container"> 
+				<p> Play the audio! &nbsp;&nbsp;&nbsp; </p>
+				<audio controls="">
+					<source src="audio/clip1.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			  </audio>
+		  </div>
+		</div>
+		
+		<div class="slide" id="slide2">
+			<div class="year-container">
+				<h2> Musical Development: 1892-1901 </h2>
+			</div>
+			<div class="timeline-container"> 
+				<div class="white-box"></div>
+				<div class="white-box-v2"></div>
+			</div>
+			<div class="content-container"> 
+				<img src="imgs/img2.jpg">
+				<div class="text-container" style="margin-left: 100px"> 
+					<p> Soon, the pain in his right hand completely prevented him from practicing the piano. As a result, Holst turned to playing the trombone and composing for a living. He attended the Royal College of Music in 1892 under Charles Stanford. During this time, he wrote many compositions inspired by Richard Wagner and conducted the Hammersmith Socialist Choir. In 1898, he left the College as the Carl Rosa Opera Company offered him a position as first trombone. Holst alludes to his musical development through the trombone in Saturn. After a slow beginning, the trombones enter with the first melodic line as motivation or a voice of wisdom for his younger self. </p>
+				</div> 
+			</div>
+			<div class="audio-container"> 
+				<p> Play the audio! &nbsp;&nbsp;&nbsp; </p>
+				<audio controls="">
+					<source src="audio/clip2.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			  </audio>
+		  </div>
+		</div>
+		
+		<div class="slide" id="slide3">
+			<div class="year-container">
+				<h2> Initial Success: 1901-1923 </h2>
+			</div>
+			<div class="timeline-container"> 
+				<div class="white-box"></div>
+				<div class="white-box-v2"></div>
+			</div>
+			<div class="content-container"> 
+				<div class="text-container" style="margin-right: 100px"> 
+					<p> The 1900s and 1910s marked a period of initial success for Holst both personally and musically. In 1901, he married Isobel Harrison, a young sopranist, and became the Director of Music at St. Paul's Girls School in 1905, a position he would hold for the majority of his life. Musically, he composed several pieces based on Hindu philosophy with varying degrees of success. However, his first major breakthough was <i> The Planets </i>, finished in 1917. These years marked the beginning of self-discovery and musical maturity. In Saturn, this is symbolized by a slow-moving, yet harmonius melody in the middle section, mimicking Holst's steady and eventful personal developments. </p>
+				</div> 
+				<img src="imgs/img3.jpg">
+			</div>
+			<div class="audio-container"> 
+				<p> Play the audio! &nbsp;&nbsp;&nbsp; </p>
+				<audio controls="">
+					<source src="audio/clip3.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			  </audio>
+		  </div>
+		</div>
+		
+		<div class="slide" id="slide4">
+			<div class="year-container">
+				<h2> Depression: 1923-1925 </h2>
+			</div>
+			<div class="timeline-container"> 
+				<div class="white-box"></div>
+				<div class="white-box-v2"></div>
+			</div>
+			<div class="content-container"> 
+				<img src="imgs/img4.jpg">
+				<div class="text-container" style="margin-left: 100px">  
+					<p> In 1923, Holst suffered a minor head injury which severely worsened his neuritis. He began feeling overworked and depressed, and his musical success brought him no joy. A year layer, he began having violent pains in his head and any noise became tortuous for him. He was not able to work for an entire year. This devastating affliction becomes a dramatic crescendo in Saturn that steadily reaches a climax. The piece then portrays many competing and chaotic melodies, as if imitating Holst's psychological state. Frequently, the music is interrupted by the loud clamor of bells, alluding to the time motif and reminding Holst of his poor health and suffering during this period. </p>
+				</div> 
+			</div>
+			<div class="audio-container"> 
+				<p> Play the audio! &nbsp;&nbsp;&nbsp; </p>
+				<audio controls="">
+					<source src="audio/clip4.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			  </audio>
+		  </div>
+		</div>
+		
+		<div class="slide" id="slide5">
+			<div class="year-container">
+				<h2> Recovery: 1925-1930 </h2>
+			</div>
+			<div class="timeline-container"> 
+				<div class="white-box"></div>
+				<div class="white-box-v2"></div>
+			</div>
+			<div class="content-container"> 
+				<div class="text-container" style="margin-right: 100px"> 
+					<p> Holst recovered in 1925 and swiftly returned to composing. He became more confident in his work and received great acclaim, even earning the Gold Medal of the Royal Philharmonic Society. During these years, he was also profoundly enlightened by Schubert's <i> Quintet. </i> His daughter Imolgen Holst describes: "As he listened to it, he realized... he could fill his days with kindliness and good humor. He could write music that was neither commonplace, unmeaning nor tame." This emotional transition appears in Saturn as well. The final section presents a harmonious melody in the flutes, in stark contrast with the previous dissonance and portraying Holst's content nature. </p>
+				</div> 
+				<img src="imgs/img5.jpg">
+			</div>
+			<div class="audio-container"> 
+				<p> Play the audio! &nbsp;&nbsp;&nbsp; </p>
+				<audio controls="">
+					<source src="audio/clip5.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			  </audio>
+		  </div>
+		</div>
+		
+		<div class="slide" id="slide6">
+			<div class="year-container">
+				<h2> Final Years: 1930-1934 </h2>
+			</div>
+			<div class="timeline-container"> 
+				<div class="white-box"></div>
+				<div class="white-box-v2"></div>
+			</div>
+			<div class="content-container"> 
+				<img src="imgs/img6.jpg">
+				<div class="text-container" style="margin-left: 100px"> 
+					<p> Holst continued to travel and teach, but was soon hospitalized in 1932. By the end of 1933, he was given a option to undergo a minor surgery with restricted limitations afterwards or a major surgery with complete freedom if successful. He chose latter. Although the surgery was successful, his heart could not handle the strain and he passed away days later in 1934. In his final years, Holst had an air of acceptence or content and was less fearful of death, evidenced by his willingness to undergo a major surgery to recover his freedom. Likewise, Saturn ends in a peaceful or tranquil manner, as if embracing the end of an otherwise chaotic piece. </p>
+				</div> 
+			</div>
+			<div class="audio-container"> 
+				<p> Play the audio! &nbsp;&nbsp;&nbsp; </p>
+				<audio controls="">
+					<source src="audio/clip6.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			  </audio>
+		  </div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="fullPage/dist/fullpage.js"></script>
+<script type="text/javascript" src="examples.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: false,
+        css3:false
+    });
+</script>
+</body>
+</html>
